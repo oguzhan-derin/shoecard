@@ -15,15 +15,7 @@
       
         <b-card-text>{{info.summary}}</b-card-text>
 
-        <b-row>
-          <div class="sizes">
-            <span>Size:</span>
-               <div class="size-box" v-for="(info,i) in info.size" :key="i">
-                  <input class="rounded" type="button"  :value="info" @click="changeSizes(info)" />
-                </div>
-            </div>
-        </b-row>         
-
+      
         <b-row class="justify-content-around">
             <div class="d-flex flex-row align-items-center justify-center">
                 <span v-for="(el,i) in info.rating" 
@@ -35,7 +27,7 @@
              </div>
                     <b-row class=mt-1>
                     <b-card-text class="text-left product-price">
-                        $ {{changePrice}}</b-card-text>
+                        $ {{info.price}}</b-card-text>
                   </b-row>
     <button @click="addShoe(info)" type="button" class="btn btn-success">Add To Card
       <span class="badge badge-light"></span>
