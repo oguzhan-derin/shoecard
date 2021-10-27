@@ -14,8 +14,16 @@
         </b-card-img>
       
         <b-card-text>{{info.summary}}</b-card-text>
-
-      
+<div class="btn-group">
+<button class="sizeButton" >36</button>
+<button class="sizeButton" >37</button>
+<button class="sizeButton" >38</button>
+<button class="sizeButton" >39</button>
+<button class="sizeButton" >40</button>
+<button class="sizeButton" >41</button>
+<button class="sizeButton" >42</button>
+</div>
+     
         <b-row class="justify-content-around">
             <div class="d-flex flex-row align-items-center justify-center">
                 <span v-for="(el,i) in info.rating" 
