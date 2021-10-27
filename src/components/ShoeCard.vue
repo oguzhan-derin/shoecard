@@ -9,7 +9,7 @@
         style="width: 20rem;"
         class="mb-2" >
 
-        <b-card-img  height="225" width="200" :src="info.image" alt="Image" class="rounded-3 ml-2">
+        <b-card-img   height="225" width="200" :src="info.image" alt="Image" class="rounded-3 ml-2">
 
         </b-card-img>
       
